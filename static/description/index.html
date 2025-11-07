@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>POS Print Last Receipt</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+
+        .container {
+            background: white;
+            border-radius: 10px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            color: #764ba2;
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #666;
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        .section {
+            margin: 30px 0;
+        }
+
+        h2 {
+            color: #667eea;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+            margin-top: 30px;
+        }
+
+        .feature {
+            background: #f8f9fa;
+            padding: 15px;
+            margin: 10px 0;
+            border-left: 4px solid #667eea;
+            border-radius: 5px;
+        }
+
+        .feature i {
+            color: #667eea;
+            margin-right: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        ul li:before {
+            content: "✓ ";
+            color: #667eea;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .installation-step {
+            background: #e9ecef;
+            padding: 10px 20px;
+            margin: 10px 0;
+            border-radius: 5px;
+            font-family: monospace;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px 5px;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background: #764ba2;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .screenshot {
+            max-width: 100%;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>🖨️ POS Print Last Receipt</h1>
+        <p class="subtitle">Reprint the last receipt with one click!</p>
+
+        <div class="section">
+            <h2>📋 Description</h2>
+            <p>
+                This module adds a convenient "Print Last Receipt" button to your Odoo 18 Point of Sale interface.
+                It allows cashiers to quickly reprint the last receipt without navigating through order history.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>✨ Features</h2>
+            <div class="feature">
+                <strong>🎯 One-Click Printing</strong><br>
+                Print the last receipt with a single click from the POS action pad.
+            </div>
+            <div class="feature">
+                <strong>🔍 Automatic Detection</strong><br>
+                Automatically finds and prints the last paid order from the current session.
+            </div>
+            <div class="feature">
+                <strong>📄 Standard Template</strong><br>
+                Uses Odoo's default receipt template for consistency.
+            </div>
+            <div class="feature">
+                <strong>🔔 User Notifications</strong><br>
+                Clear success and error messages keep users informed.
+            </div>
+            <div class="feature">
+                <strong>💡 Easy Integration</strong><br>
+                Seamlessly integrates into the existing POS interface.
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🚀 Installation</h2>
+            <ol>
+                <li>Copy the module folder to your Odoo addons directory</li>
+                <li>Restart your Odoo server</li>
+                <li>Update the apps list (Apps → Update Apps List)</li>
+                <li>Search for "POS Print Last Receipt"</li>
+                <li>Click the "Install" button</li>
+            </ol>
+        </div>
+
+        <div class="section">
+            <h2>📖 Usage</h2>
+            <ul>
+                <li>Open your Point of Sale</li>
+                <li>Complete at least one sale</li>
+                <li>Find the "Print Last" button in the action pad</li>
+                <li>Click to reprint the last receipt</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>⚙️ Technical Information</h2>
+            <ul>
+                <li><strong>Version:</strong> 18.0.1.0.0</li>
+                <li><strong>Odoo Version:</strong> 18.0</li>
+                <li><strong>Category:</strong> Point of Sale</li>
+                <li><strong>License:</strong> LGPL-3</li>
+                <li><strong>Dependencies:</strong> point_of_sale</li>
+            </ul>
+        </div>
+
+        <div class="section center">
+            <h2>💬 Support</h2>
+            <p>For support, please contact your Odoo administrator or module developer.</p>
+        </div>
+
+        <div class="section center">
+            <p style="color: #999; font-size: 0.9em; margin-top: 40px;">
+                © 2025 - POS Print Last Receipt Module for Odoo 18
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
