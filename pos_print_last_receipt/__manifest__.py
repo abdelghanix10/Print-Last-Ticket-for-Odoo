@@ -17,6 +17,7 @@
     """,
     'author': 'Abdelghani X',
     'website': 'https://www.AbdelghaniX.com',
+    'license': 'OPL-1',
     'price': 19.99,
     'currency': 'USD',
     'images': [
