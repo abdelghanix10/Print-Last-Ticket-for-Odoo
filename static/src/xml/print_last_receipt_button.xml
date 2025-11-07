@@ -4,7 +4,7 @@
         <button class="btn btn-light btn-lg" t-on-click="onClick" style="margin: 5px; width: 100%;">
             <i class="fa fa-print fa-2x"/>
             <br/>
-            <span>Print Last</span>
+            <span>Print Last Receipt</span>
         </button>
     </t>
 

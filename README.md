@@ -53,5 +53,5 @@ For issues or questions, please contact your Odoo administrator.
 
 ## Credits
 
-- Developer: Your Company
-- Maintainer: Your Company
+- Developer: Abdelghani X
+- Maintainer: Abdelghani X
