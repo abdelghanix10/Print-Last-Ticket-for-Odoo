@@ -15,9 +15,19 @@
         * Uses Odoo's default receipt template
         * Shows notifications for success/errors
     """,
-    'author': 'Your Company',
-    'website': 'https://www.yourcompany.com',
-    'license': 'LGPL-3',
+    'author': 'Abdelghani X',
+    'website': 'https://www.AbdelghaniX.com',
+    'price': 19.99,
+    'currency': 'USD',
+    'images': [
+        'static/description/banner.png',
+        'static/description/icon.png',
+        'static/description/screenshots/Register Without Button \'Print Last Receipt\' - 1.png',
+        'static/description/screenshots/Button Edit Settings Register - 2.png',
+        'static/description/screenshots/PopUp Settings Register - 3.png',
+        'static/description/screenshots/Register With Button Print Last Receipt - 4.png',
+        'static/description/screenshots/Register With Button Print Last Receipt - 5.png',
+    ],
     'depends': [
         'point_of_sale',
     ],
